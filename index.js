@@ -1,5 +1,5 @@
 let nome = "Ana Paula"
-let xp = 8000
+let xp = 9000
 let nivel = ""
 
 if (xp <= 1000) {
@@ -20,4 +20,4 @@ if (xp <= 1000) {
     nivel = "Radiante"
 }
 
-console.log("O Herói de nome ${nome} está no nível de ${nivel}")
+console.log("O Herói de nome " + nome + " está no nível de " + nivel)
